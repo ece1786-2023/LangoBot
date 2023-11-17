@@ -8,7 +8,6 @@ import time
 
 st.set_page_config(page_title="Chatbot", page_icon="💬")
 st.header('LangoBot: Your Personal English Tutor')
-my_openAI_key = "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"
 
 class Basic:
     def __init__(self):
