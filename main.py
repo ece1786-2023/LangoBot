@@ -109,6 +109,16 @@ class Basic:
         translated_message = translation_chain.run(native_language=st.session_state['native_language'], message=response)
         st.markdown(translated_message)
         st.session_state.messages.append({"role": "assistant", "content": translated_message})
+    
+    def evaluation(self):
+        final_message = ""
+        messages = st.session_state['chain'].memory.buffer_as_messages
+        for i in range(len(messages)):
+            if (i%2 == 0):
+                final_message += "Student: " + messages[i].content + "\n"
+            else:
+                final_message += "Teacher: " + messages[i].content + "\n"
+        print(final_message)
 
     def main(self):
         if "messages" not in st.session_state:
@@ -168,6 +178,7 @@ class Basic:
                     st.session_state.messages.append({"role": "assistant", "content": final_response})
                 with st.chat_message("assistant"):
                     st.button("Translate Assistant's Message", on_click=lambda: self.translate(final_response))   
+                    st.button("End", on_click=lambda: self.evaluation()) 
 
 if __name__ == "__main__":
     obj = Basic()
