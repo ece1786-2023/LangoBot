@@ -40,17 +40,19 @@ class Basic:
         
 
     def evaluation(self):
-        conversation_history = ""
+        conversation_history = "Below is the conversation history: \n\n"
         messages = st.session_state["conv_messages"]
         for message in messages:
             if (message["role"] == "user"):
-                conversation_history += "Student: " + message["content"] + "\n"
-            else:
-                conversation_history += "Teacher: " + message["content"] + "\n"
+                conversation_history += "Student: " + message["content"] + "\n\n"
+            elif (message["role"] == "assistant"):
+                conversation_history += "Teacher: " + message["content"] + "\n\n"
         feedback_messages = [{"role": "system", "content": EVALUATION_PROMPT}, 
-                             {"role": "assistant", "content": conversation_history}]
-        feedbacks = self.send_openai_request(messages=feedback_messages, max_tokens=600)
+                             {"role": "user", "content": conversation_history}]
+        print(feedback_messages)
+        feedbacks = self.send_openai_request(messages=feedback_messages, max_tokens=700)
         st.session_state.messages.append({"role": "assistant", "content": feedbacks})
+        st.session_state["conversation_ended"] = True
 
     def main(self):
         # record the whole chat memory in "messages"
@@ -60,9 +62,11 @@ class Basic:
             st.chat_message(msg["role"]).write(msg["content"])
         # record the conversation memory in "conv_messages"
         if "conv_messages" not in st.session_state:
-            st.session_state["conv_messages"] = [{"role": "system", "content": CONVERSATION_PROMPT}, 
+            st.session_state["conv_messages"] = [{"role": "system", "content": CONVERSATION_PROMPT.format(native_language=st.session_state["native_language"])}, 
                                                  {"role": "assistant", "content": INITIAL_PROMPT}]
-                
+        
+        if "conversation_ended" in st.session_state:
+            return      
         # get user response
         user_query = st.chat_input(placeholder=self.placeholder)
         if user_query:
@@ -72,13 +76,12 @@ class Basic:
             with st.chat_message("assistant"):
                 # get grammar correction feedback
                 question_response = """
-                The Q&A is:
-
                 Question: {question}
+
                 Response: {response} 
                 """
                 grammar_messages = [{"role": "system", "content": GRAMMAR_PROMPT}, 
-                                    {"role": "user", "content": question_response.format(question=st.session_state["conv_messages"][-1]['content'], response=user_query)}]
+                                    {"role": "user", "content": question_response.format(question=st.session_state["conv_messages"][-2]['content'], response=user_query)}]
                 grammar_response = self.send_openai_request(messages=grammar_messages)
                 # get conversation response
                 conversation_response = self.send_openai_request(messages=st.session_state["conv_messages"], max_tokens=200)
