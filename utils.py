@@ -23,7 +23,6 @@ def configure():
     native_language = st.sidebar.text_input(
         label="Your Native Language",
         value=st.session_state['native_language'] if 'native_language' in st.session_state else '',
-        placeholder="sk-..."
         )
     if openai_api_key and native_language:
         st.session_state['OPENAI_API_KEY'] = openai_api_key

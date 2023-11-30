@@ -4,9 +4,8 @@ import streamlit as st
 import time
 import os
 from gtts import gTTS
-from prompts import CONVERSATION_PROMPT, GRAMMAR_PROMPT, TRANSLATE_PROMPT, INITIAL_PROMPT, NATIVE_LANGUAGE_PROMPT, EVALUATION_PROMPT
+from prompts import CONVERSATION_PROMPT, GRAMMAR_PROMPT, TRANSLATE_PROMPT, INITIAL_PROMPT, EVALUATION_PROMPT
 
-st.set_page_config(page_title="Chatbot", page_icon="💬")
 st.header('LangoBot: Your Personal English Tutor')
 
 class Basic:
@@ -49,7 +48,9 @@ class Basic:
     def evaluation(self):
         conversation_history = "Below is the conversation history: \n\n"
         messages = st.session_state["conv_messages"]
-        for message in messages:
+        # Avoid feeding the last assistant message
+        for i in range(len(messages)-1):
+            message = messages[i]
             if (message["role"] == "user"):
                 conversation_history += "Student: " + message["content"] + "\n\n"
             elif (message["role"] == "assistant"):
@@ -59,6 +60,7 @@ class Basic:
         feedbacks = self.send_openai_request(messages=feedback_messages, max_tokens=700)
         st.session_state.messages.append({"role": "assistant", "content": feedbacks})
         st.session_state["conversation_ended"] = True
+        return
 
     def main(self):
         # record the whole chat memory in "messages"
@@ -82,7 +84,7 @@ class Basic:
             with st.chat_message("assistant"):
                 # get grammar correction feedback
                 question_response = """
-                Question: {question}
+                Message: {question}
 
                 Response: {response} 
                 """
@@ -100,11 +102,11 @@ class Basic:
                 st.audio(audio_bytes, format="audio/mp3", start_time=0)
                 st.session_state.messages.append({"role": "assistant", "content": final_response})
                 st.session_state.conv_messages.append({"role": "assistant", "content": conversation_response})
-                col1, col2 = st.columns([3, 1])
+                col1, col2 = st.columns([2, 1])
                 with col1:
                     st.button("Translate Assistant's Message", on_click=lambda: self.translate(final_response))  
                 with col2:
-                    st.button("End", on_click=lambda: self.evaluation()) 
+                    st.button("End the Conversation", on_click=lambda: self.evaluation()) 
 
 if __name__ == "__main__":
     obj = Basic()
