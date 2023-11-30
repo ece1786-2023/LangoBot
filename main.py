@@ -3,6 +3,7 @@ from openai import OpenAI
 import streamlit as st
 import time
 import os
+from gtts import gTTS
 from prompts import CONVERSATION_PROMPT, GRAMMAR_PROMPT, TRANSLATE_PROMPT, INITIAL_PROMPT, NATIVE_LANGUAGE_PROMPT, EVALUATION_PROMPT
 
 st.set_page_config(page_title="Chatbot", page_icon="💬")
@@ -32,6 +33,12 @@ class Basic:
         except Exception as e:
             st.error("Error in OpenAI request: " + str(e))
             return None
+
+    def text_to_speech(self, text):
+        tts = gTTS(text=text, lang='en', slow=False)
+        filename = "temp_audio.mp3"
+        tts.save(filename)
+        return filename
     
     def translate(self, response):
         translate_messages = [{"role": "user", "content": TRANSLATE_PROMPT.format(native_language = st.session_state["native_language"], message=response)}]
@@ -49,7 +56,6 @@ class Basic:
                 conversation_history += "Teacher: " + message["content"] + "\n\n"
         feedback_messages = [{"role": "system", "content": EVALUATION_PROMPT}, 
                              {"role": "user", "content": conversation_history}]
-        print(feedback_messages)
         feedbacks = self.send_openai_request(messages=feedback_messages, max_tokens=700)
         st.session_state.messages.append({"role": "assistant", "content": feedbacks})
         st.session_state["conversation_ended"] = True
@@ -87,11 +93,18 @@ class Basic:
                 conversation_response = self.send_openai_request(messages=st.session_state["conv_messages"], max_tokens=200)
                 # concatenate two reponses and display on the interface
                 final_response = grammar_response + "\n\n" + "Back to conversation: " + conversation_response
-                st.markdown(final_response)
+                audio_file = self.text_to_speech(conversation_response)
+                audio_file = open(audio_file, "rb")
+                audio_bytes = audio_file.read()
+                st.markdown(final_response + "\n\n Listen to the response:")
+                st.audio(audio_bytes, format="audio/mp3", start_time=0)
                 st.session_state.messages.append({"role": "assistant", "content": final_response})
                 st.session_state.conv_messages.append({"role": "assistant", "content": conversation_response})
-                st.button("Translate Assistant's Message", on_click=lambda: self.translate(final_response))  
-                st.button("End", on_click=lambda: self.evaluation()) 
+                col1, col2 = st.columns([3, 1])
+                with col1:
+                    st.button("Translate Assistant's Message", on_click=lambda: self.translate(final_response))  
+                with col2:
+                    st.button("End", on_click=lambda: self.evaluation()) 
 
 if __name__ == "__main__":
     obj = Basic()
