@@ -48,6 +48,7 @@ class Basic:
     def evaluation(self):
         conversation_history = "Below is the conversation history: \n\n"
         messages = st.session_state["conv_messages"]
+        # extract whole conversation history from the session, excluding grammar feedback
         # Avoid feeding the last assistant message
         for i in range(len(messages)-1):
             message = messages[i]
@@ -95,13 +96,16 @@ class Basic:
                 conversation_response = self.send_openai_request(messages=st.session_state["conv_messages"], max_tokens=200)
                 # concatenate two reponses and display on the interface
                 final_response = grammar_response + "\n\n" + "Back to conversation: " + conversation_response
+                # text-to-speech for standard chatbot message
                 audio_file = self.text_to_speech(conversation_response)
                 audio_file = open(audio_file, "rb")
                 audio_bytes = audio_file.read()
                 st.markdown(final_response + "\n\n Listen to the response:")
                 st.audio(audio_bytes, format="audio/mp3", start_time=0)
+                # save the message history to state
                 st.session_state.messages.append({"role": "assistant", "content": final_response})
                 st.session_state.conv_messages.append({"role": "assistant", "content": conversation_response})
+                # adding translation and end conversation button
                 col1, col2 = st.columns([2, 1])
                 with col1:
                     st.button("Translate Assistant's Message", on_click=lambda: self.translate(final_response))  
