@@ -110,7 +110,7 @@ Errors identified and explanations:
     - Correct: ""In the summer, I like to swim.""
     - Incorrect: ""On the summer, I like to swim.""
    
-Your answer also completely addresses the question. Keep practicing!",1,1,6
+Your answer also completely addresses the question. Keep practicing!",1,1,8
 Hello John! It's nice to meet you. Reading is a wonderful hobby. Let's move on to discussing your favorite book. Can you tell me about your favorite book and why it's your favorite?,Hello! I happy to meet you. My favorite book is Harry Potter. It is fun book. I liking magic and adventure in book. This book make me happy when I read.,6,"Missing Verb: ""I happy to meet you."" should be ""I am happy to meet you.""
 Article Omission: ""It is fun book."" should be ""It is a fun book.""
 Incorrect Verb Form and Missing Article: ""I liking magic and adventure in book."" should be ""I like magic and adventure in the book.""
@@ -135,7 +135,7 @@ Example: Can you open the door?
 Example: He makes a lot of noise when he eats.
 
 6. ""when I read"" - We need to indicate what 'I' read. You can say ""when I read it.""
-Example: I understand it better when I read it aloud",1,1,6
+Example: I understand it better when I read it aloud",1,1,8
 "Great job, John! I can see you're a big fan of Harry Potter. 👍 Next, let's learn how to talk about past experiences. 
 
 Have you ever re-read any of the Harry Potter books? If so, which one did you choose and why?","Yes, I am re-read Harry Potter book. I most like the Prisoner of Azkaban. ",3,"Verb Tense Consistency and Article Omission: ""Yes, I am re-read Harry Potter book."" should be ""Yes, I am re-reading the Harry Potter book.""
@@ -157,7 +157,7 @@ Example: ""I like chocolate the most.""
  - When referring to a singular, non-specific item, we use ""a"" before the noun.
 Example: ""I have a book.""
 On the other hand, when the noun is specific, we use ""the"".
-Example: ""The book I have is interesting.""",1,1,6
+Example: ""The book I have is interesting.""",1,1,8
 "That's interesting, John! Sirius Black is indeed a captivating character. Let's now learn how to describe people. Can you describe Sirius Black's character to someone who has never read Harry Potter?","Sirius Black is very kind and brave man. He is Harry Potter's godfather. He is always help Harry. He was in prison because people think he is bad, but he is not.",3,"Article Omission: ""Sirius Black is very kind and brave man."" should be ""Sirius Black is a very kind and brave man.""
 Multiple Verb: ""He is always help Harry."" should be ""He always helps Harry.""
 Verb Tense Consistency: ""people think he is bad"" should be ""people thought he was bad"" for consistency with the past tense in ""He was in prison.""","Your response was mostly clear and effective. However, some grammar corrections are needed for it to be perfect:
@@ -175,7 +175,7 @@ Corrected sentences:
 2. ""He always helps Harry.""
 3. ""He was in prison because people thought he was bad, but he is not.""
 
-Your answer took the question well into account, keep practicing on your grammar!",1,1,3
+Your answer took the question well into account, keep practicing on your grammar!",1,1,4
 "Your description of Sirius Black is fantastic, John! 🌟This time, let's learn how to describe places. Can you describe the Hogwarts School of Witchcraft and Wizardry for someone who has never read Harry Potter books?","Hogwarts is a very big magic school. It has a lot of rooms, some is secret. It has magic objects, ghosts, and magical creatures. There is dorms for students and a big dining hall. It's very beautiful and misterious. Can be dangerous, but also is a place where students learn magic and make friends.",4,"Plural Form Error: ""some is secret"" should be ""some are secret.""
 Plural Form Error: ""There is dorms for students"" should be ""There are dorms for students.""
 Spelling Error: ""misterious"" should be ""mysterious.""
@@ -191,7 +191,7 @@ Errors identified and explanations:
 3. Incorrect use of ""can"" in ""can be dangerous."" 
     - Instead of ""can,"" you should use ""it can"" to specify that 'it' (Hogwarts) can be dangerous. 
 
-Keep practicing! You're improving every day!",1,1,4.5
+Keep practicing! You're improving every day!",1,1,6.5
 "Excellent description, John! You really made Hogwarts come alive with your words. 😊 Now, let's practise expressing future plans. Do you plan to read any other books by J.K. Rowling or any other authors? If so, which ones and why?","Yes, I have plans to read more books of J.K Rowlling. I enjoy Harry Potter very much. After finish, I want to read 'The Cuckoo's Calling.' It is more adult, but I like mistery, so I think it will be good for me!",4,"Preposition Usage and Spelling Error: ""books of J.K Rowlling"" should be ""books by J.K. Rowling.""
 Verb Form: ""After finish,"" should be ""After finishing,""
 Spelling Error: ""mistery"" should be ""mystery.""","Your sentence has a few minor spelling and grammatical errors. Here's the corrected version: ""Yes, I have plans to read more books by J.K. Rowling. I enjoy Harry Potter very much. After I finish, I want to read 'The Cuckoo's Calling.' It is more mature, but I like mystery, so I think it will be good for me!""
@@ -208,7 +208,7 @@ To fix this the verb needs to be in the -ing form, so the sentence should look l
 4. Word choice: The word ""adult"" generally refers to a person who is grown up, while ""mature"" is a more appropriate word to describe content that is intended for adults or grown-ups.
 Example: ""The novel is intended for a mature audience due to its complex themes.""
 
-However, you have effectively answered the question and your future reading plans sound great! Keep up the good work.",1,1,5.5
+However, you have effectively answered the question and your future reading plans sound great! Keep up the good work.",1,1,7.6
 "Good choices, John! 👍 ""Fantastic Beasts"" and ""Percy Jackson"" are indeed interesting reads. Now, let's practice conversational English. How would you recommend the Harry Potter series to someone who hasn't read them?","Harry Potter is a very good book! Have magic and adventure, many exciting. You must read it, you will love it!",2,"Missing Subject and Syntax: ""Have magic and adventure, many exciting."" should be ""It has magic and adventure, and it's very exciting.""","Your sentence is mostly correct, but it could use a bit of rephrasing for clarity and proper grammar. 
 Here's the corrected version: ""Harry Potter is a very good book! It has magic and adventure, and many exciting moments. You must read it, you will love it!""
 
@@ -220,7 +220,7 @@ Errors identified and explanations:
     In English, the adjective (exciting) usually can't stand alone without a noun unless it's part of a larger sentence structure. We need to know what is 'exciting'. In this case, 'moments' or 'parts' would fit well.
 
 Example with proper use of ""it"": ""It rains a lot in the winter.""
-Example with an adjective + noun: ""There are many exciting scenes in the movie.""",1,1,6
+Example with an adjective + noun: ""There are many exciting scenes in the movie.""",1,1,8
 "Perfect recommendation, John! 👌 Now, let's shift our focus to practicing daily life situations. Imagine you are at a bookstore and you can't find Harry Potter book. What would you say to the bookstore clerk?",I want find the Harry Potter book but I can't find it. Can you help me?,1,"Missing Infinitive Marker: ""I want find the Harry Potter book"" should be ""I want to find the Harry Potter book.""","Your sentence has a minor grammatical mistake. The correct sentence should be: ""I want to find the Harry Potter book but I can't. Can you help me?""
 Errors identified and explanation:
 1. Missing preposition ""to"" after ""want"" before verb ""find"", creating the infinitive form.
@@ -230,7 +230,7 @@ Examples of correct usage:
 - ""I want to read a book.""
 Remember to always use the base form of a verb with ""to"" after the verb ""want"". 
 
-Your response to the question is great as you've managed to navigate the situation appropriately. Just pay attention to the small grammatical errors. Keep it up!",1,1,6
+Your response to the question is great as you've managed to navigate the situation appropriately. Just pay attention to the small grammatical errors. Keep it up!",1,1,8
 "Hi there! Absolutely, I'd be glad to help. How about we practice introductory phrases and greetings? For instance, how would you introduce yourself to someone for the first time in English?",Hello! Mine name is Jack. I am from Spain. Nice to meet you.,1,"Incorrect Possessive Pronoun: ""Mine name is Jack."" should be ""My name is Jack.""","Your sentence is almost perfect, there is just a small grammatical error. It should be: ""Hello! My name is Jack. I am from Spain. Nice to meet you.""
 
 Errors identified and explanations:
@@ -243,7 +243,7 @@ Variations of the correct usage are:
 ""My dog is playing in the park.""
 ""Is this car yours or mine?"" 
 
-Good job on the rest of the sentence! Keep going, you are doing well.",1,1,6
+Good job on the rest of the sentence! Keep going, you are doing well.",1,1,8
 "Hi John, it's a pleasure to meet you too! That's a perfect introduction. Great job! 🎉 Now, how would you ask about someone's interests? Remember, it's a good topic to keep a conversation going.","Hello, I can ask like this. ""What do you like to do in your free time?"" or ""Which is your favorite hobbie?""",2,"Spelling Error and Question Structure: ""Which is your favorite hobbie?"" should be ""What is your favorite hobby?""","Your sentences are almost perfect! There's just one minor mistake. The word 'hobbie' should be 'hobby'. Also, 'which' is usually used for choices, we use 'what' for open-ended questions. 
 
 Your corrected sentences could be: 
@@ -258,7 +258,7 @@ Example with 'what': ""What is your favorite color?""
 2. Spelling error - 'hobbie' should be 'hobby': 
 When spelling, be careful to use the correct form of the word. 
 
-Keep up the good work! You're learning very quickly.",1,1,6
+Keep up the good work! You're learning very quickly.",1,1,8
 "Hi John! That's another good sentence. 👍 Now, what if you want to say you share the same interest with someone? How would you express that in English?","Hello! I can say, ""We have same hobby"" for saying I share the same interest with someone.",1,"Missing Article: ""We have same hobby"" should be ""We have the same hobby.""","Your sentence is almost perfect, there's just a small grammatical error. The corrected sentence should be: ""We have the same hobby.""
 
 Error identified and explanation:
@@ -269,7 +269,7 @@ For example, you'd say ""We live in the same city"" or ""They have the same love
 
 Remember, if you're describing something specific that the listener is aware of, you should most likely use ""the"". 
 
-Hence, the corrected sentence should be ""We have the same hobby"". Well done for trying though, keep it up!",1,1,6
+Hence, the corrected sentence should be ""We have the same hobby"". Well done for trying though, keep it up!",1,1,8
 "Exactly, John! 👏 That's correct. Now, how would you express your own interests or hobbies in English? For instance, what do you generally like to do during your free time in France?","In my free time, I like read books and listen music. Sometimes I play football with friends.",2,"Missing Infinitive Marker: ""I like read books"" should be ""I like to read books.""
 Missing Preposition: ""listen music"" should be ""listen to music.""","Your sentence is almost perfect, but there are a couple of minor errors. It should be: ""In my free time, I like to read books and listen to music. Sometimes, I play football with friends.""
 Errors identified and explanations:
@@ -283,7 +283,7 @@ Correct: I like to play tennis.
 Incorrect: I like listen to rock music.
 Correct: I like to listen to rock music.
 
-Awesome work overall – keep it up!",1,1,3
+Awesome work overall – keep it up!",1,1,4
 "Great, John! You have interesting hobbies. 📚🎾🍳 Let's change the topic a little bit. Imagine you're at a restaurant, how would you order a meal in English?","My english is not good, but I will say to waiter, ""Hello, I want order big steak and french fries, pleasee. Also, can I have a cold soda too?""",2,"Missing Infinitive Marker: ""I want order big steak"" should be ""I want to order a big steak.""
 Spelling Error: ""pleasee"" should be ""please.""
 Redundancy in Request: ""too"" is not necessary after ""Also,"" The sentence is still gramatically correct though","The content of your sentence is clear, but let's fix up a few minor grammar and spelling errors:
@@ -300,7 +300,7 @@ Errors identified:
        Correct: ""I would like to order a pizza.""
        Incorrect: ""I want order a pizza.""
 
-Keep on practicing and you'll continue to improve!",1,1,6
+Keep on practicing and you'll continue to improve!",1,1,8
 "Well done, John! That's perfectly stated. 👍 Now, suppose your order was incorrect when it arrived, how would you respond to the waiter to communicate the mistake? Don't forget to use polite language.","I'm sorry, but I think I made a mistake on the order. This food is not what I ordering. Can you please fix this?",1,"Verb Tense Error: ""what I ordering"" should be ""what I ordered.""","Your response was polite and it clearly communicated your issue, which is great! But there were a couple of grammar mistakes. Let's correct them:
 1. ""This food is not what I ordering."" The correct sentence should be: ""This food is not what I ordered."" 
     - Explanation: When referring to a past event (ordering the food), you should use the past tense verb 'ordered' instead of 'ordering'.
@@ -309,7 +309,7 @@ Keep on practicing and you'll continue to improve!",1,1,6
 
 Here's how your corrected response looks: ""I'm sorry, but I think there was a mistake with the order. This food is not what I ordered. Could you please fix this?"" 
 
-Amazing job on communicating effectively with politeness! Keep practicing, your English is really improving.",1,1,5
+Amazing job on communicating effectively with politeness! Keep practicing, your English is really improving.",1,1,6
 "That's right, John! You handled that very politely and correctly. 🌟 Now, let's imagine you're in a shop, how would you ask the seller for the price of an item you're interested in?","Excuse me, how much does this item costed?",1,"Verb Tense Error: ""costed"" should be ""cost.""","Your sentence is almost perfect, but there's a small grammatical error. 
 
 The correct version is: ""Excuse me, how much does this item cost?""
@@ -337,7 +337,7 @@ Errors identified and explanations:
 3. Incorrect verb form in ""I don't wanting"".
    After 'do not / don't', we use the base form of the verb. That's why it's 'I don't want' instead of 'I don't wanting'. Correct usage: 'I don't want to leave.'
 
-Here's the suggested version of your sentence: ""I'm sorry, but this item is too expensive for me. I no longer want to buy it.""",1,1,6
+Here's the suggested version of your sentence: ""I'm sorry, but this item is too expensive for me. I no longer want to buy it.""",1,1,8
 "Absolutely, I'll be glad to help you. Let's start with something simple. 
 How about we practice describing your daily routine?
 It's a great way to expand vocabulary and learn about verb tenses, particularly the present simple. 
@@ -363,7 +363,7 @@ For example:
 ""I watch TV every evening.""
 ""I'm watching TV now.""
 
-Keep practicing, you're doing well!",1,1,6
+Keep practicing, you're doing well!",1,1,8
 "Fantastic! You used the present simple tense correctly to describe your daily routine. Now let's shift our focus to expressing likes and dislikes.
 
 What are some of the things that you really enjoy about your day? What things do you dislike? Remember to include the structure ""I like..."" or ""I don't like..."" in your response.",I like eat breakfast with my family and going to school. I don't like doing homeworks and cleaning my room. ,2,"Verb Tense Consistency: ""I like eat breakfast"" should be ""I like eating breakfast.""
@@ -375,7 +375,7 @@ Errors identified and explanations:
 
 2. Incorrect plural of ""homework"": the word ""homework"" is uncountable in English, which means it doesn't have a plural form. It's always ""homework"", not ""homeworks"". A correct use is in the sentence: 'I finished my homework.' 
 
-Great job overall, just bear these corrections in mind as you continue practicing! Keep going.",1,1,6
+Great job overall, just bear these corrections in mind as you continue practicing! Keep going.",1,1,8
 "Great! Thanks for sharing those. Now let's explore a bit about using adjectives in your sentences. Adjectives are words that describe or modify other words.
 
 Can you tell me more about your school using at least three descriptive adjectives? For example, you might describe its size, color, or atmosphere.",My school is very big and beautiful. Teachers is nice and kind. I loving my school a lot.,2,"Plural Form Error: ""Teachers is nice"" should be ""Teachers are nice.""
@@ -388,7 +388,7 @@ Errors identified and explanations:
     In English, we use 'is' with singular nouns (e.g., ""The teacher is nice"") and 'are' with plural nouns (e.g., ""The teachers are nice"").
 2. ""loving"" should be ""love"". This is because the present continuous (loving) is not typically used with stative verbs like love, want, need, etc. The correct usage is ""I love"".
 
-Great use of adjectives to describe your school! Your enthusiasm comes across clearly in your writing. Keep practicing!",1,1,5.5
+Great use of adjectives to describe your school! Your enthusiasm comes across clearly in your writing. Keep practicing!",1,1,8
 "Well done! You've used adjectives appropriately to describe your school. 
 
 Now, let's move to another aspect of English - the use of comparatives and superlatives. Comparatives compare two things (e.g., bigger, smaller), while superlatives express the highest degree of something (e.g., biggest, smallest).
@@ -406,7 +406,7 @@ Errors identified and explanations:
     
 2. In the phrase ""quietest place in the school"", ""the"" should be used before ""quietest place"" because it's clear that we are referring to a specific place, which is the quietest one. 
 
-Well done on attempting this exercise! With a bit more practice, you'll master it.",1,1,4.5
+Well done on attempting this exercise! With a bit more practice, you'll master it.",1,1,4
 "Well done! You used comparatives and superlatives correctly. 
 
 Now let's discuss 'prepositions of place'. Prepositions of place are words that describe where something is located. Some examples are: in, on, at, behind, under, above, and between. 
@@ -425,7 +425,7 @@ For example:
 Here's the corrected version of your sentences: 
 ""Sure, my English classroom is on the first floor. The math classroom is above the library. My locker is between my English classroom and science lab.""
 
-You've been doing a great job with Prepositions of Place, keep it up!",1,1,6
+You've been doing a great job with Prepositions of Place, keep it up!",1,1,8
 "Brilliant! You've used prepositions of place correctly and effectively in your sentences.
 
 Now, let's move to discussing 'opinions'. Expressing your opinion is crucial in any language. The easiest way to state an opinion in English is by using phrases such as ""I think"", ""I feel"", or ""I believe"".
@@ -440,7 +440,7 @@ Errors identified and explanations:
 2. Spelling error: 'lern' should be corrected to 'learn.'
 3. Do remember to always capitalize the first letter of 'English' as it is a proper noun.
 
-Keep practicing and soon these corrections will become natural to you!",1,1,6
+Keep practicing and soon these corrections will become natural to you!",1,1,8
 "That's great! You expressed your opinions clearly using the phrases ""I think"", ""I feel"", and ""I believe"".
 
 Now, I'd like to introduce the concept of 'conditionals'. Conditionals are sentences with 'if'. They talk about the result of something that might happen (in the future or present) or might have happened but didn't (in the past).
@@ -462,7 +462,7 @@ Here are examples for correct usage:
 - 'I will help you.' (Future intention)
 
 So, the corrected version of your sentence is either ""Sure! I can try."" or ""Sure! I will try.""                 
-",0,0.5,3
+",0,0.5,4
 "Perfect! You've used conditionals correctly in your sentences. 
 
 Now, let's practice 'asking questions'. In English, we typically use 'wh' words like what, where, who, when and why to ask questions.
@@ -491,7 +491,7 @@ Corrected version of your response:
 4) When is your birthday?
 5) Why are you learning English?
 
-Keep practicing, you're making progress!",1,1,2
+Keep practicing, you're making progress!",1,1,4
 "Of course, welcome to English learning! 
 Let's start with greetings. Could you tell me how you would greet someone during different times of the day in English?","In the morning, I will say 'Good moorning'. In afternoon, I would say 'Good afternoon'. At night, I would say 'Good evening' or 'Good night'.",2,"Spelling Error: ""moorning"" should be ""morning""
 Missing Article: ""In afternoon"" should be ""In the afternoon""","Your response is mostly correct, great job! There are just a couple of minor spelling and grammatical errors to fix:
@@ -504,7 +504,7 @@ Errors identified and explanations:
 
 The corrected version of your response is: ""In the morning, I will say 'Good morning'. In the afternoon, I would say 'Good afternoon'. At night, I would say 'Good evening' or 'Good night'.""
 
-Keep practicing, and you'll get the hang of these nuances in no time!",1,1,5
+Keep practicing, and you'll get the hang of these nuances in no time!",1,1,6
 "Perfect! Now, let's talk about introducing ourselves. Apart from your name, what other information could you share when you meet someone for the first time?","In the first meeting, you can share about which country you come from, what's your job, or how is your favourite food.",2,"Sentence Order: ""what's your job"" should be ""what your job is""
 Question Word Error and Sentence Order: ""how is your favourite food"" should be ""what your favorite food is.""","Your sentence is pretty good, but there are a few minor grammatical issues. The corrected version should be: ""In the first meeting, you can share which country you come from, what your job is, or what your favourite food is."" 
 
@@ -513,7 +513,7 @@ Errors identified and explanations:
     - The word ""what's"" is a contraction of ""what is"", and it is misplaced in this context where you are not directly asking a question, but suggesting things that can be shared. The corrected form should be ""what your job is"".
     Examples: Correct: ""Could you tell me what your job is?"", Incorrect: ""Could you tell me what's your job?"" 
     - Additionally, the word ""how"" is not correctly used in the phrase ""how is your favourite food"". The word ""how"" is typically used to ask about, or describe, the condition or quality of something, not to state what that something is. Instead, the correct word to use here is ""what"". 
-    Examples: Correct: ""Could you tell me what your favourite food is?"", Incorrect: ""Could you tell me how is your favourite food?""",1,1,6
+    Examples: Correct: ""Could you tell me what your favourite food is?"", Incorrect: ""Could you tell me how is your favourite food?""",1,1,8
 "Great response! Next, let's talk about hobbies. Can you tell me what you like to do in your free time and why you enjoy doing it?","In my free time, I like to read books. Reading books is make me feel relax.",2,"Verb Agreement: ""is make"" should be ""makes.""
 Verb Form: ""relax"" should be ""relaxed.""","Your sentence has a minor grammatical error. It should be: ""In my free time, I like to read books. Reading books makes me feel relaxed.""
 
@@ -525,7 +525,7 @@ Example: Eating healthy makes me feel good.
 2. Incorrect adjective form - 'relax' should be 'relaxed'
 'Feel' should be followed by an adjective here to describe the state or condition. 
 Example: I feel excited about the trip tomorrow. 
-",1,1,6
+",1,1,8
 "That's excellent! Books are indeed a great way to learn. 
 Now, let's practice expressing likes and dislikes. Can you tell me something you really dislike and why?",I really doesn't like snakes. Snakes are scary and dangeruos. They make me frighting.,3,"Subject-Verb Agreement: ""doesn't like"" should be ""don't like"" for the first-person singular subject ""I.""
 Spelling Errors: ""dangeruos"" should be ""dangerous,"" and ""frighting"" should be ""frightened.""","Your sentence has a few grammatical and spelling errors. Let's correct them:
@@ -544,7 +544,7 @@ Errors identified and explanations:
 
 3. Incorrect use of adjective: ""frighting"" isn't a word. The correct term should be ""frightened"".
     - ""Frightened"" can be used to describe being afraid or scared. 
-    Example: They make me feel frightened.",1,1,6
+    Example: They make me feel frightened.",1,1,8
 "I totally understand. 😊 Bad weather can be a real downer. Now, let's shift to food. Could you tell me about your favorite food and why you like it?","Yes, I love pizza very much. It tastes so good, and I can put anything on it. Cheese, sauce and many type of toppings make me happy.",1,"Plural Form: ""many type of toppings"" should be ""many types of toppings.""","Your sentence is almost perfect, but there is a minor grammatical error.
 
 The corrected sentence is: ""Yes, I love pizza very much. It tastes so good, and I can put anything on it. Cheese, sauce and many types of toppings make me happy.""
@@ -556,7 +556,7 @@ In your sentence, you're referring to various kinds of pizza toppings so you sho
 
 Examples include: ""They sell many types of fruits at the market."" (when referring to various kinds of fruits) or ""There are many types of vehicles on the road."" (when referring to different categories of vehicles) 
 
-You responded effectively to the question by explaining what you like about your favorite food. Good job!",1,1,6
+You responded effectively to the question by explaining what you like about your favorite food. Good job!",1,1,8
 "Pizza is a favourite for many! 🍕 Now, let's practice asking questions. How would you ask a friend about what they did during their weekend? Try to make your question as engaging as possible.",What you do in weekends? ,3," Missing Auxiliary Verb, Missing Article and Incorrect Preposition: ""What you do in weekends?"" should be ""What did you do on the weekends?""","Your sentence has a grammatical error. The correct phrase is: ""What did you do on the weekend?""
 
 Errors identified and explanations:
@@ -570,7 +570,7 @@ We use ""on"" when we refer to days and dates. The weekend is considered as a pa
 -  What did you do on Monday? 
 -  What will you do on the weekend?
 
-It's important to make sure your question makes sense and attracts the person you're speaking to. So here's a more engaging way to phrase your sentence: ""What exciting things did you get up to on the weekend?""",0,0.67,3.33
+It's important to make sure your question makes sense and attracts the person you're speaking to. So here's a more engaging way to phrase your sentence: ""What exciting things did you get up to on the weekend?""",0,0.67,4
 "That's a great question! You're doing very well! Now, imagine you are ordering your favourite pizza over the phone, how would you do it? Remember to be polite and clear.","Hello, I want to order a pizza. I need one large pizza with pepperoni and olives. No any cheese, Please. Thank you.",1,"Incorrect Article Use: ""No any cheese, Please."" should be ""No cheese, please.""","Your sentence is almost perfect, just a small grammatical error. It should be: ""Hello, I want to order a pizza. I need one large pizza with pepperoni and olives. No cheese, please. Thank you.""
 
 Errors identified and explanations:
@@ -585,7 +585,7 @@ Examples:
 Correct version without ""any"": No cheese.
 Example: I don't want sugar in my coffee, please. 
 
-Great job with the rest of your response! You were both polite and clear in your pizza order!",1,1,6
+Great job with the rest of your response! You were both polite and clear in your pizza order!",1,1,8
 "Awesome! You've mastered pizza ordering! Now, can you describe me the color, size and shape of the logo of your favorite brand? This will help you practice describing objects.","Yes, my favorit brand is Apple. The logo colour is silver. Logo size is medium. The shape of logo is circle, and it looks like an apple with a bite.",3,"Spelling Error: ""favorit"" should be ""favorite.""
 Missing Article: ""Logo size is medium."" should be ""The logo size is medium.""; ""The shape of logo is circle"" should be ""The shape of the logo is circle""","Great job responding to the query! However, there are some minor spelling and grammatical errors in your response:
 
@@ -597,7 +597,7 @@ Errors identified and explanations:
 Corrected Response:
 Yes, my favorite brand is Apple. The logo color is silver. The logo size is medium. The shape of the logo is a circle, and it looks like an apple with a bite.
 
-Keep practicing! Your progress is evident.",0,0.333333333,3.33
+Keep practicing! Your progress is evident.",0,0.333333333,3.666666667
 "Of course! Welcome to the exciting world of learning English! 😊 To start, why don't we practice introductions? Can you tell me a bit about yourself, such as where you're from and what your favorite hobbies are?","Yes, thank! I come from Brazil. My hobbies are soccer and reading.",1,"Missing Word: ""Yes, thank!"" should be ""Yes, thank you!""","Your response has a slight mistake. The correct version of your response should be: ""Yes, thanks! I come from Brazil. My hobbies are soccer and reading.""
 
 Errors identified and explanations:
@@ -606,12 +606,12 @@ Errors identified and explanations:
 
 Remember to use 'thanks' when you are expressing gratitude and 'thank' when you are specifying whom you want to give thanks to. 
 
-Keep going! You're doing well in introducing yourself. ",1,1,6
+Keep going! You're doing well in introducing yourself. ",1,1,8
 "That's great! 📚⚽️ Reading books is an excellent way to learn English. Tell me, what kind of books do you enjoy reading? Fiction? Nonfiction? What are some of your favorite books?
 ",I enjoy read fiction books. I like Harry Potter the best. ,1,"Verb Form: ""I enjoy read fiction books."" should be ""I enjoy reading fiction books.""","Your response has a slight grammatical error. The correct version should be: ""I enjoy reading fiction books. I like Harry Potter the best.""
 Errors identified and explanations:
 1. Use incomplete verb form: 'read' instead of 'reading.'
-In this context, after ""enjoy"", we should use the ""ing"" form of the verb to indicate an activity that you take pleasure in doing. So, using ""reading"" instead of ""read"" is the correct form. Here are additional examples that illustrate the correct usage:  ""I enjoy eating pizza."" or ""They enjoy playing soccer."" Good job on specifying your favorite book, keep up the good work!",1,1,6
+In this context, after ""enjoy"", we should use the ""ing"" form of the verb to indicate an activity that you take pleasure in doing. So, using ""reading"" instead of ""read"" is the correct form. Here are additional examples that illustrate the correct usage:  ""I enjoy eating pizza."" or ""They enjoy playing soccer."" Good job on specifying your favorite book, keep up the good work!",1,1,8
 "Fantastic! 🧙‍♂️ The Harry Potter series is popular worldwide. Can you describe one of the characters from Harry Potter in your own words? Remember to include their appearance, personality, or any interesting events associated with them.","Harry Potter's best friend Hermoine Granger is a very smart girl. She has curly hair, and she alway carry a lot of books. Hermoine is brave and loyal. She helps Harry on many situations.",3,"Missing comma: ""Harry Potter's best friend Hermoine Granger"" should be ""Harry Potter's best friend, Hermoine Granger""
 Spelling Error: ""Hermoine"" should be ""Hermione.""
 Subject-Verb Agreement: ""she alway carry"" should be ""she always carries.""
@@ -622,7 +622,7 @@ Errors identified and explanations:
 1. Spelling error: It should be 'Hermione' not 'Hermoine.'
 2. Grammar error: Instead of 'alway carry,' the correct form to use is 'always carries.' This form is used because it refers to a habit or repeated action. Examples: She always walks to school, He usually goes to the gym.
 3. Grammar error: 'She helps Harry on many situations' should be 'She has helped Harry in many situations.' The preposition 'in' is more appropriate to use here because it refers to being within a context or environment. We use 'in' when referring to situations, places, and conditions. Examples: He flourished in a difficult situation, They discussed it in a meeting.
-4. Grammar error: There should be a comma after 'Hermione Granger' to offset the appositive phrase ('Harry Potter's best friend'). An appositive is a noun or noun phrase that renames another noun right next to it and is set off by commas. Example: My dog, a golden retriever, loves to play fetch.",1,1,5
+4. Grammar error: There should be a comma after 'Hermione Granger' to offset the appositive phrase ('Harry Potter's best friend'). An appositive is a noun or noun phrase that renames another noun right next to it and is set off by commas. Example: My dog, a golden retriever, loves to play fetch.",1,1,7
 "Nicely done! 😊 Hermione is indeed an iconic character. Now, let's use the Past Simple tense, which is used for actions completed in the past. Can you tell me what happened in yesterday's soccer match that you played or watched?",I watched a match yesterday. My favorite team losing but they try hard. ,2,"Past tense: ""My favorite team losing"" should be ""My favorite team lost.""
 Past tense: ""try"" should be ""tried.""","Your sentence has some grammatical issues. The corrected version should be: ""I watched a match yesterday. My favorite team lost but they tried hard.""
 
@@ -633,7 +633,7 @@ E.g. ""I lost my keys yesterday."" or ""They lost the game last night.""
 
 2. 'try' should be 'tried':
 Similarly, 'try' in the past simple tense is 'tried', not 'try'. This correction aligns with the use of the past simple tense.
-E.g. ""I tried to finish my homework before dinner."" or ""The athlete tried his best in the race.""",1,1,6
+E.g. ""I tried to finish my homework before dinner."" or ""The athlete tried his best in the race.""",1,1,8
 "Well done!⚽️ Now, let's shift gears and practice making requests and asking for things politely. Can you ask me to lend you a book in English? Try using phrases like ""Could you..."" or ""Would you mind..."".",Could you lend me a English book?,1,"Article Use: ""a English book"" should be ""an English book.""","Your sentence is almost correct, but it has a small grammatical error. It should be ""an English book"" not ""a English book.""
 Errors identified and explanation:
 1. Using the incorrect article ""a"" before ""English"". The rule is: we use ""an"" before words that start with vowels (a, e, i, o, u) because it makes them easier to pronounce. Therefore ""an"" should be used before ""English"" instead of ""a"".
@@ -643,7 +643,7 @@ Here are few more examples to illustrate the correct usage:
 - I am an engineer.
 - She is an honest person.
 
-So the corrected sentence is: ""Could you lend me an English book?"" Good job on using polite phrases to make a request!",1,1,6
+So the corrected sentence is: ""Could you lend me an English book?"" Good job on using polite phrases to make a request!",1,1,8
 "Well done! 📚 Jolly good! Now, let's use a bit of conditionals, specifically the second conditional. It's used to talk about imagined situations, usually things that might never happen. For example, ""If I won the lottery, I would buy a house."" Can you tell me what you would do if you could meet JK Rowling, the author of Harry Potter?","If I could meet JK Rowling, I was very happy. I would ask her about her favorite character in Harry Potter.",1,"Verb Tense Consistency: ""I was very happy."" should be ""I would be very happy.""","Your response is almost perfect, though there's a minor grammatical error in it. 
 
 Error and explanation:
@@ -656,7 +656,7 @@ Additional examples:
 - If I had a car, I would drive to work.
 - If it rained tomorrow, I would stay at home.
 
-Here's a corrected version of your response: ""If I could meet JK Rowling, I would be very happy. I would ask her about her favorite character in Harry Potter.""",1,1,6
+Here's a corrected version of your response: ""If I could meet JK Rowling, I would be very happy. I would ask her about her favorite character in Harry Potter.""",1,1,8
 "Fantastic response! 💫 Now, let's focus on descriptive language. Can you describe Japan, your homeland, using adjectives? Try to use words that describe the sights, sound, or even the feel of the place.",Japan is a very beutiful country. The food is delicious and people is polite.,2,"Spelling Error: ""beutiful"" should be ""beautiful.""
 Subject-Verb Agreement: ""people is polite"" should be ""people are polite.""","Your sentence has a minor spelling mistake and a grammatical issue. It should be: ""Japan is a very beautiful country. The food is delicious and the people are polite.""
 Errors identified and explanations:
@@ -667,7 +667,7 @@ Let's see some usage examples:
 Incorrect: People is friendly.
 Correct: People are friendly.
 
-Continue practicing, you're making progress! You did a wonderful job of beginning to describe Japan, but don't forget to include more adjectives that tell us about the sights, sounds, and the feel of the country next time.",1,1,6
+Continue practicing, you're making progress! You did a wonderful job of beginning to describe Japan, but don't forget to include more adjectives that tell us about the sights, sounds, and the feel of the country next time.",1,1,8
 "Well done! 🇯🇵 That's a really nice description of Japan. Let's move onto practicing usage of prepositions of place and direction. Could you guide me through your house as if I've never been there before? Try using prepositions like 'in', 'on', 'at', 'across', 'through', etc.","Sure. When you enter my house, the kitchen is on the right. The living room is in left side. Upstairs, bathroom is at end of the hallway.
 ",3,"Preposition Use and Missing Article: ""The living room is in left side."" should be ""The living room is on the left side.""
 Missing Article: ""at end of the hallway"" should be ""at the end of the hallway""","Your response is very close to being correct, but there are a few grammar issues. The revised sentence should be: ""Sure. When you enter my house, the kitchen is on the right. The living room is on the left side. Upstairs, the bathroom is at the end of the hallway.""
@@ -679,4 +679,4 @@ Prepositions 'on' and 'in' have different uses. We use 'on' when we want to indi
 2. Omission of the article 'the' before 'left side' and 'end of the hallway'.
 When you specify something using a noun, use 'the' before it.  In this case, while referring to a very specific place: 'the left side' and 'the end of the hallway,' 'the' is necessary. 
 
-Well done trying to use prepositions. Keep practicing!",0,0.67,4
+Well done trying to use prepositions. Keep practicing!",1,1,7
