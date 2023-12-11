@@ -60,7 +60,7 @@ GRAMMAR_PROMPT = """
         """
 
 TRANSLATE_PROMPT = """
-        Translate the following paragraph to {native_language}:
+        Translate the following texts from an English instructor to student's {native_language}:
         
         {message}
         """

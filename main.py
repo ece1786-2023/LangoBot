@@ -11,7 +11,7 @@ st.header('LangoBot: Your Personal English Tutor')
 class Basic:
     def __init__(self):
         configure()
-        self.openai_model = "gpt-3.5-turbo"
+        self.openai_model = "gpt-4"
         self.placeholder = "Type your response here..."
         self.client = OpenAI(
             api_key=os.environ['OPENAI_API_KEY']
@@ -20,7 +20,7 @@ class Basic:
     def send_openai_request(self, messages, max_tokens=400):
         try:
             response = self.client.chat.completions.create(
-                model="gpt-4",
+                model=self.openai_model,
                 messages=messages,
                 temperature=1,
                 max_tokens=max_tokens,
@@ -111,6 +111,8 @@ class Basic:
                     st.button("Translate Assistant's Message", on_click=lambda: self.translate(final_response))  
                 with col2:
                     st.button("End the Conversation", on_click=lambda: self.evaluation()) 
+                if "conversation_ended" in st.session_state:
+                    return     
 
 if __name__ == "__main__":
     obj = Basic()
